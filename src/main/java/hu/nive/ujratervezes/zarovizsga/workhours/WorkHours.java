@@ -17,7 +17,7 @@ public class WorkHours {
                 processLine(line);
             }
         } catch (IOException ioe) {
-            throw new IllegalStateException("Can not read file", ioe);
+            throw new IllegalStateException("Can not read file!", ioe);
         }
         return stringBuilder.toString();
     }

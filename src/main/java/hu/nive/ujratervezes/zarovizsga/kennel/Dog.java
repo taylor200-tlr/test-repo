@@ -16,6 +16,8 @@ public abstract class Dog {
     public int getHappiness() {
         return happiness;
     }
+
     public abstract void feed();
+
     public abstract void play(int hours);
 }

@@ -9,7 +9,7 @@ public class DigitsCounter {
         if ((text == null) || (text.equals(""))) {
             return 0;
         }
-        Set<Character> digits =new HashSet<>();
+        Set<Character> digits = new HashSet<>();
         for (char c : text.toCharArray()) {
             if (Character.isDigit(c)) {
                 digits.add(c);
